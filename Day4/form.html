@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha Form</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="form.html">form</a></li>
+                <li><a href="table.html">table</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Jamaler ma Pitha house</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Data</legend>
+            <label for="name"> Name:
+                <input type="text" id="name" placeholder="Your name">
+            </label>
+            <label for="email"> Email:
+                <input type="email" id="email" placeholder="Your email">
+            </label>
+            <label for="pin"> Pin number:
+                <input type="password" id="pin" placeholder="Pin number">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pic one pitha</legend>
+            <label for="vapa">
+              
+                <input type="radio" name="pitha" id="vapa">  Vapa-pitha
+            </label>
+            <label for="citoi">
+              
+                <input type="radio" name="pitha" id="citoi">  Chitoy-pitha
+            </label>
+            <label for="Jhal">
+              
+                <input type="radio" name="pitha" id="Jhal">  Jhal-pitha
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Take some vortas</legend>
+            <select name="vorta" id="">
+                <option value="0">Sorisha</option>
+                <option value="2">Talk</option>
+                <option value="1">Shutki</option>
+                <option value="3">Jhal</option>
+            </select> <br>
+           <label for="specile"> Special Instruction: <br>
+            <textarea name="" id="specile" cols="30" rows="6"></textarea>
+           </label>
+        </fieldset> 
+        <input type="reset" value="Reset" style="display: inline;">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

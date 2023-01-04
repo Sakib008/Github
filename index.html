@@ -8,8 +8,9 @@
         
     </title>
     <link rel="icon" href="png-transparent-globe-world-font-awesome-icon-globe-miscellaneous-map-earth-thumbnail.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <style>
-        body{
+        main{
             height: 100vh;
             width: 100vw;
             margin: 0;
@@ -101,11 +102,34 @@
             /* transform: scale(1.1); */
 
         }
+        nav>ul{
+            display: flex;
+            justify-content: center;
+            padding: 0 10px;
+            list-style: none;
+        }
+        a{
+            padding: 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+        }
     </style>
 </head>
 <body>
-
-    <div>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Day4/form.html">form</a></li>
+            <li><a href="Day4/table.html">table</a></li>
+            <li><a href="Day4/media.html">Media</a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+     <div>
         <form action="">
           <h1>Login</h1>
          
@@ -116,5 +140,7 @@
           <button>Click</button>
       </form>
       </div>
+</main>
+   
 </body>
 </html>

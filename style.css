@@ -1,0 +1,41 @@
+nav>ul{
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+    list-style: none;
+}
+a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 0 15px;
+    
+   margin: 0;
+    
+    text-align: left;
+   
+}
+a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+    margin: 0;
+    padding: 0;
+}
+a:hover::after {
+    width: 100%;
+    
+}
+nav{
+    background-color: aqua;
+    margin: 0 5px;
+    padding: 10px 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
